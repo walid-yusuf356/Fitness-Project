@@ -1,13 +1,13 @@
-import "./header.css";
-import logo from "../../assets/images/fitness-logo-oval-40px.png";
+import logo from "../../assets/images/fitness-logo.png";
 import { Link } from "react-router-dom";
+import "./header.css";
 
 const header = () => {
   return (
     <section>
       <nav className="main_header_wrapper navbar navbar-expand-lg pt-3 ">
         <div className="container ">
-          <Link className="navbar-brand d-flex align-items-center gap-3" to="#">
+          <Link className="logo navbar-brand d-flex align-items-center gap-3" to="#">
             <img src={logo} alt="" />
             <span className="brand-text">Wellfit</span>
           </Link>
@@ -22,10 +22,17 @@ const header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
+          <div
+            className="collapse navbar-collapse justify-content-end "
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/home">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/home"
+                >
                   Home
                 </Link>
               </li>

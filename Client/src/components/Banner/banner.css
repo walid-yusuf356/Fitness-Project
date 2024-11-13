@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap");
+
+.main_banner_wrapper {
+  background-color: #ecc06c;
+}
+.banner_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.img-banner .main-img {
+  width: 910px;
+  height: 860px;
+  max-width: 100%;
+}
+
+.right-banner .banner-title {
+  /* width: 646px; */
+  /* height: 222px; */
+  font-size: 69px;
+  font-weight: 600;
+  line-height: 74px;
+  font-family: "Unbounded", sans-serif;
+}
+
+.upper-btn {
+  width: 209px;
+  height: 55px;
+  /* font: Instrument Sans;
+  font-size: 12px;
+  line-height: 14px; */
+}
+.lower-btn {
+  width: 153px;
+  height: 48px;
+  background-color: #ffe783;
+  /* font: Instrument Sans; */
+  font-size: 13px;
+}
